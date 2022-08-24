@@ -1,15 +1,25 @@
 fun main(){
 
     println("aplicacion Emilio Arriola")
-    println("ingrese un numero 1: ")
+    print("ingrese un numero 1: ")
     val n1 = readLine()!!.toInt()
 
-    println("ingrese un numero 2: ")
+    print("ingrese un numero 2: ")
     val n2 = readLine()!!.toInt()
 
-    val resultado = n1 + n2
-    println("El resultado es: " +resultado)
+    var resultado = n1 + n2
+    println("La suma es: " +resultado)
 
+     resultado = n1 - n2
+    println("La suma es: " +resultado)
+
+    resultado = n1 * n2
+    println("La suma es: " +resultado)
+
+    resultado = n1 / n2
+    println("La suma es: " +resultado)
+
+    println("Desarrolador movil Emilio Alejandro Arriola Rodriguez")
 
 
 
